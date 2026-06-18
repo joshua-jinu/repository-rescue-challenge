@@ -6,7 +6,12 @@ A development team has been working directly on `main` and using inconsistent br
 
 ## Learning Objective
 
-Practice Git repository diagnosis, branch workflow cleanup, merge conflict recovery, and environment drift repair using a small Node.js application.
+Practice the following using a small Node.js application:
+
+- Git repository diagnosis
+- Branch workflow cleanup
+- Merge conflict recovery
+- Environment drift repair
 
 ## Setup Instructions
 
@@ -80,6 +85,5 @@ Inspect the branch history and repository state to identify:
 ## Notes
 
 The application reads the port from `process.env.PORT` and falls back to `3000` if it is not set. The README currently contains an incorrect startup command to simulate environment drift.
-
 
 > Temporary test change on temp branch.
